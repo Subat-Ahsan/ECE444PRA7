@@ -11,3 +11,7 @@ def record(value, history=None):
 
     history.append(value)
     return history
+
+
+def total(values):
+    return sum(values)
